@@ -1,7 +1,7 @@
 STOCK PORTFOLIO REPORT
 ========================================
-AAPL : 4 shares × $180 = $720
-TSLA : 2 shares × $250 = $500
-GOOGL : 4 shares × $150 = $600
+AAPL : 4 shares Ã— $180 = $720
+TSLA : 2 shares Ã— $250 = $500
+GOOGL : 4 shares Ã— $150 = $600
 ========================================
 Total Investment Value: $1820
