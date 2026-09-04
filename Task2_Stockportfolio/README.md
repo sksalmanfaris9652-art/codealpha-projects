@@ -1,57 +1,74 @@
 # Stock Portfolio Tracker
 
-A simple console-based Stock Portfolio Tracker developed using Python for the CodeAlpha Python Programming Internship.
+A simple Python-based Stock Portfolio Tracker created as part of my CodeAlpha Python Programming Internship.
 
 ## Features
 
 - Displays available stocks and their prices
-- Allows the user to select multiple stocks
-- Allows the user to enter the quantity of each stock
-- Calculates the investment value for each stock
-- Calculates the total portfolio investment
+- Allows users to select multiple stocks
+- Accepts the quantity of each stock
+- Calculates individual investment values
+- Calculates total portfolio investment
 - Saves the portfolio report to a text file
 
 ## Technologies Used
 
 - Python
-- Dictionary
+- Dictionaries
 - Loops
-- Conditional statements
-- User input and output
-- File handling
+- Conditional Statements
+- User Input and Output
+- File Handling
 
 ## Available Stocks
 
-- AAPL - $180
-- TSLA - $250
-- GOOGL - $150
-- MSFT - $420
-- AMZN - $190
+| Stock | Price |
+|---|---:|
+| AAPL | $180 |
+| TSLA | $250 |
+| GOOGL | $150 |
+| MSFT | $420 |
+| AMZN | $190 |
 
 ## How to Run
 
-Make sure Python is installed.
+Make sure Python is installed on your computer.
 
 Open the terminal in this folder and run:
 
-```text
+```bash
 python stockportfolio.py
+```
 
-EXAMPLE
+## Example
+
+```text
+STOCK PORTFOLIO TRACKER
+
+Available Stocks:
+AAPL : $180
+TSLA : $250
+GOOGL : $150
+MSFT : $420
+AMZN : $190
 
 Enter stock name: AAPL
 Enter quantity: 4
-4 shares of AAPL added.
-
-Do you want to add another stock? (yes/no): yes
 
 Enter stock name: TSLA
 Enter quantity: 2
-2 shares of TSLA added.
-
-Do you want to add another stock? (yes/no): no
-
-AAPL : 4 shares × $180 = $720
-TSLA : 2 shares × $250 = $500
 
 Total Investment Value: $1220
+
+Portfolio saved successfully to portfolio.txt
+```
+
+## Output File
+
+The program creates a `portfolio.txt` file containing the portfolio details and total investment value.
+
+## Project
+
+**CodeAlpha Python Programming Internship**
+
+**Task 2 - Stock Portfolio Tracker**
